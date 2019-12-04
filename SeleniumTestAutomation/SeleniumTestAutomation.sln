@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationGUI", "AutomationGUI\AutomationGUI.csproj", "{C995BF8B-9B58-4619-83C4-8C501EB8B39B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationGUI", "..\..\Work\Automation\automation-desk-app\AutomationGUI.csproj", "{099A80FF-BA17-459E-B81D-1505A5A57038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationExcel", "..\..\Work\Automation\AutomationExcel\AutomationExcel.csproj", "{286815BD-36A6-48A1-94B8-F339D609D7E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationTest", "..\..\Work\Automation\AutomationTest\AutomationTest.csproj", "{FFEA3518-C598-4AD0-8CD3-11D43CFFD158}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C995BF8B-9B58-4619-83C4-8C501EB8B39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C995BF8B-9B58-4619-83C4-8C501EB8B39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C995BF8B-9B58-4619-83C4-8C501EB8B39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C995BF8B-9B58-4619-83C4-8C501EB8B39B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099A80FF-BA17-459E-B81D-1505A5A57038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099A80FF-BA17-459E-B81D-1505A5A57038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099A80FF-BA17-459E-B81D-1505A5A57038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099A80FF-BA17-459E-B81D-1505A5A57038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286815BD-36A6-48A1-94B8-F339D609D7E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286815BD-36A6-48A1-94B8-F339D609D7E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286815BD-36A6-48A1-94B8-F339D609D7E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286815BD-36A6-48A1-94B8-F339D609D7E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFEA3518-C598-4AD0-8CD3-11D43CFFD158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFEA3518-C598-4AD0-8CD3-11D43CFFD158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFEA3518-C598-4AD0-8CD3-11D43CFFD158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFEA3518-C598-4AD0-8CD3-11D43CFFD158}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
