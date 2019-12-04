@@ -2,7 +2,7 @@
 
 The automation of data entry into  web-forms to assess quotes and element defects in batches. 
 
-*Note: This is a lightweight repo that acts as a demo and showcase, most of the content and classes have been removed as it contained sensitive company related data. Alternatively, for a lightweight GUI-less version that fully works with different automation strategies (ordered, multithreaded and looped) view my DataDrivenTesting Repo!*
+*Note: This is a lightweight repo that acts as a demo and showcase, most of the content and classes have been removed as they contained sensitive company related data. Alternatively, for a lightweight GUI-less version that fully works with different automation strategies (ordered, multithreaded and looped) view my DataDrivenTesting Repo!*
 
 
 ## Table of contents
@@ -194,8 +194,8 @@ public void UserDetailsInput(int row, int sheetNum)
 
 ## How to run
 
-1. ~Launch the TestData WorkBook found inside the Automation directory that you cloned or download~ Edit: Not available in public repo, create your own data sets and read through the code to see how data is looked up in Excel!
-2. ~Select a Sheet you want to automate and start filling the rows out. Each row from start to the specified finish column represents one data set. The WorkBook is dynamic, has drop-downs and behaves the same way the website does, following the same rule set. Make sure you fill out all the white cells for each row and give each data set a name!~  Edit: Not available in public repo
+1. ~Launch the TestData WorkBook found inside the Automation directory that you cloned or download~
+2. ~Select a Sheet you want to automate and start filling the rows out. Each row from start to the specified finish column represents one data set. The WorkBook is dynamic, has drop-downs and behaves the same way the website does, following the same rule set. Make sure you fill out all the white cells for each row and give each data set a name!~  
 3. ~After have one or multiple data sets ready, save and exit the WorkBook~
 4. ~Launch the automation-desk-app~
 5. ~Select which form you want to automate from the first dropdown~
@@ -205,7 +205,7 @@ public void UserDetailsInput(int row, int sheetNum)
 9. ~After the progress bar reaches 100, click 'Finish' and open up the TestData WorkBook once again to see the quote results~
 10. ~Once done, run the terminate-driver.bat file to clean up~
 
-*Note: How to run is not applicablabe for this repo; but left in to highlight how to run this project when reproduced. Alternatively, for a lightweight GUI-less version that fully works with different automation strategies (ordered, multithreaded and looped) view my DataDrivenTesting Repo!*
+*Note: How to run is not applicablabe for this repo; but left in to highlight how to run this project when reproduced with the correct functionality. Alternatively, for a lightweight GUI-less version that fully works with different automation strategies (ordered, multithreaded and looped) view my DataDrivenTesting Repo!*
 
 ## Video Guides & Tutorials for this project
 
